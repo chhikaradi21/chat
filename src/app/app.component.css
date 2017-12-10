@@ -11,6 +11,14 @@
 }
 
 
+#chat-heading{
+    border-bottom: 1px solid #756c6c63;
+}
+
+#chat-heading h3{
+    color: #fff;
+}
+
 #chat-box{
     position:absolute;
     bottom:0;
