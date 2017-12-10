@@ -1,0 +1,5 @@
+/.DS_Store
+/.angular-cli.json
+/.angularjs-cli.json
+/node_modules/*
+/dist/*
