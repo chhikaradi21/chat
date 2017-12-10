@@ -10,7 +10,7 @@ import {SdkService} from './sdk.service';
 export class AppComponent implements OnInit {
     message = '';
     messagesArr = [];
-    apiKey = 'apiKey';
+    apiKey = '6nt5d1nJHkqbkphe';
     chatBotID = 63906;
     externalID = 'chirag1';
     userName = 'Chirag';
@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-        console.log('hahaha');
+        // initiazation stuff - not needed in this case.
     }
 
 }
