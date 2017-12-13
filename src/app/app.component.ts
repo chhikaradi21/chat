@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
     sendQuery(message) {
         const scb = (response) => {
             console.log(response);
+            this.message = '';
             this.messagesArr.push({'query': message, reply: (response && response.message && response.message.message) || ''});
             console.log(this.messagesArr);
         };

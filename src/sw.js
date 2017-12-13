@@ -1,13 +1,7 @@
 var CACHE = 'cache-and-update';
 
 var cacheFiles = [
-    './',
-    './js/practice-concat.js?v=0.1',
-    './views/partials/practice/analysis.html?v=0.1',
-    './views/partials/practice/bookmarks.html?v=0.1',
-    './views/partials/practice/chapterAnalysis.html?v=0.1',
-    './views/partials/practice/listview.html?v=0.1',
-    './views/partials/practice/question.html?v=0.1'
+    './'
 ];
 
 self.addEventListener('install', function(evt) {
